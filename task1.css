@@ -1,0 +1,170 @@
+/*
+Chen Haziza - 319007892
+Yakov Amoyal - 315177543
+*/
+body {
+    background-color: rgb(93, 151, 142);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh; /* Set the body height to the full viewport height */
+    overflow: hidden; /* Prevent scrolling */
+    padding: 20px; /* Add some padding to the body */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+  }
+  
+  #myInput {
+    width: 450px;
+    height: 35px;
+    border-radius: 20px;
+  }
+
+  li button {
+    background-color:#23487f;
+    width: 50px;
+    height: 20px;
+    border-radius: 18px;
+  }
+  li button:hover{
+    background-color:#49658f;
+  }
+  li:hover{
+    color: rgb(102, 171, 115);
+  }
+  li{
+    font-size: 20px;
+  }
+
+  .btn {
+    width: 130px;
+    height: 30px;
+    background: linear-gradient(to top, #00154c, #12376e, #23487f);
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .btn span {
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: top 0.5s;
+  }
+  
+  .btn-text-one {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .btn-text-two {
+    position: absolute;
+    width: 100%;
+    top: 150%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .btn:hover .btn-text-one {
+    top: -100%;
+  }
+  
+  .btn:hover .btn-text-two {
+    top: 50%;
+  }
+  
+  ol li.checked {
+    color: rgb(104, 190, 124);
+    text-decoration: line-through;
+  }
+  .btns1{
+    position: fixed;
+    left: 420px;
+  }
+  .btns2{
+    position: fixed;
+    left: 470px;
+  }
+  .btns3{
+    position: fixed;
+    left: 520px;
+  }
+  
+  ol li {
+    line-height: 22.8px;
+    margin-bottom: 4px;
+  }
+
+  .centered-div {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #list-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 60px;
+    align-items: center;
+  }
+  
+  #note-img {
+    width: 600px;
+    height: 300px;
+    
+  }
+  
+  #myList {
+    position: absolute;
+    top: 161.9;
+    left: 5;
+    margin-top: 11px;
+    margin-left: 25px;
+    padding: 0;
+    z-index: 1;
+    text-align: left;
+  }
+  
+  #chart {
+    position:absolute;
+    display: flex;
+    bottom: 100px; /* Adjust the bottom position as desired */
+    left: -500px; /* Adjust the left position as desired */
+    flex: 1;
+  }
+  
+  #div1{
+    position: fixed;
+  }
+
+  .tooltip {
+    position:fixed;
+    height: 17px; 
+    top: 125px;
+    right: 270px; /* Adjust the left position as desired */
+    font-size: 15px;
+    color: #070707;
+    padding: 4px 12px; /* Adjust the padding as desired */
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap; /* Prevent the tooltip from wrapping to a new line */
+  }
+  
+  li:hover .tooltip {
+    opacity: 1;
+  }
+  .tooltip:hover{
+    display: none;
+  }
