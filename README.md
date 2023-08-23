@@ -1,7 +1,7 @@
 # ToDo List App
 
 The ToDo List App is a simple web-based application that allows users to create, manage, and track tasks using an intuitive user interface built with HTML, JavaScript, and CSS.
-
+This is my first projest in Html, CSS and JavaScript in Web Application.
 ![image](https://github.com/chenB-Y/To-Do-List-/assets/129218828/8c528818-ef93-4a1e-9dde-9ea1d741de73)
 
 
